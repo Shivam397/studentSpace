@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cont img{
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.both-cards{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.both-cards .address, .map{
+    border: 2px solid black;
+    border-radius:8px ;
+    width: 200px;
+    height: 200px;
+    background-color: #1e4362;
+    border-top: 4px solid #cc8d58;
+}
+
+.address h2,h3,h5{
+    text-align: center;
+    color: white;
+}
+
+.map h2,h3,h5{
+    text-align: center;
+    color: white;
+}
+
+.map h5 a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+}
